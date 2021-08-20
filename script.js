@@ -1,7 +1,7 @@
 function showTimeDate() {
     const displayTime = document.getElementById("displayTime");
     const displayDate = document.getElementById("displayDate");
-    const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+    const options = { year: 'numeric', month: 'long', day: 'numeric', weekday: 'long' };
     
     const time = new Date();
     
