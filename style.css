@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Play&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Play', sans-serif;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #af00ff;
+  background: -webkit-gradient(linear, left top, right top, from(#af00ff), color-stop(70%, #0093ff), to(#5afff2));
+  background: linear-gradient(90deg, #af00ff 0%, #0093ff 70%, #5afff2 100%);
+}
+
+p {
+  font-size: 3rem;
+  color: white;
+  font-weight: 600;
+}
+/*# sourceMappingURL=style.css.map */
