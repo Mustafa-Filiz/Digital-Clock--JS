@@ -40,13 +40,23 @@ function timer() {
         minute = parseInt(minute);
 
         splitSecond++;
-        if (splitSecond == 100) {
+        if (splitSecond == 60) {
             second++;
             splitSecond = 0;
         }
         if (second == 60) {
             minute++;
             second = 0;
+        }
+
+        if (splitSecond == 0 || splitSecond < 10) {
+            splitSecond = "0" + splitSecond;
+        }
+        if (second == 0 || second < 10) {
+            second = "0" + second;
+        }
+        if (minute == 0 || minute < 10) {
+            minute = "0" + minute;
         }
 
         displayTimer.innerHTML = `${minute} : ${second} : ${splitSecond}`;
