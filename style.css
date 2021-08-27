@@ -17,9 +17,8 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -28,14 +27,43 @@ body {
   background: linear-gradient(90deg, #af00ff 0%, #0093ff 70%, #5afff2 100%);
 }
 
-p {
+#displayDate {
   font-size: 2rem;
   color: white;
   font-weight: 600;
 }
 
 #displayTime {
+  color: white;
   font-size: 5rem;
+  font-weight: 600;
   margin-bottom: 20px;
+}
+
+button {
+  padding: 10px 30px;
+  border-radius: 5px;
+  border: 1px solid transparent;
+  font-size: 1.3rem;
+  color: white;
+}
+
+#displayTimer {
+  font-size: 4rem;
+  text-align: center;
+  margin-bottom: 20px;
+  color: white;
+}
+
+#start {
+  background-color: #00a151;
+}
+
+#stop {
+  background-color: red;
+}
+
+#reset {
+  background-color: darkslateblue;
 }
 /*# sourceMappingURL=style.css.map */

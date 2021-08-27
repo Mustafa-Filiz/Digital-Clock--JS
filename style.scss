@@ -12,19 +12,48 @@ body{
     height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     background: rgb(175,0,255);
     background: linear-gradient(90deg, rgba(175,0,255,1) 0%, rgba(0,147,255,1) 70%, rgba(90,255,242,1) 100%);
 }
 
-p{
+#displayDate{
     font-size: 2rem;
     color: white;
     font-weight: 600;
 }
 
 #displayTime{
+    color: white;
     font-size: 5rem;
+    font-weight: 600;
     margin-bottom: 20px;
+}
+
+button{
+    padding: 10px 30px;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    font-size: 1.3rem;
+    color: white;
+}
+
+#displayTimer{
+    font-size: 4rem;
+    text-align: center;
+    margin-bottom: 20px;
+    color: white;
+}
+
+#start{
+    background-color: rgb(0, 161, 81);
+}
+
+#stop{
+    background-color: rgb(255, 0, 0);
+}
+
+#reset{
+    background-color:darkslateblue;
 }
