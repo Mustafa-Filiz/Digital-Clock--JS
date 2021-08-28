@@ -61,7 +61,7 @@ function timer() {
 
         displayTimer.innerHTML = `${minute} : ${second} : ${splitSecond}`;
 
-        setTimeout("timer()", 16.666666666667)
+        setTimeout("timer()", 100/6)
     }
 }
 
